@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./Counter";
 
 function App() {
   const handleClick2 = () => {
@@ -14,6 +15,8 @@ function App() {
 
   return (
     <>
+      <Counter />
+
       {/* Way 1 */}
       <button onClick={() => console.log("Clicked! 1")}>Click me1</button>
 
