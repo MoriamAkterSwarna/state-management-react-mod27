@@ -1,14 +1,12 @@
 import "./App.css";
 import Counter from "./Counter";
 import LikeButton from "./LikeButton";
+import Posts from "./Posts";
 import Todos from "./Todos";
 import Users from "./Users";
 import Users_With_Async from "./Users_With_Async";
 
-
 function App() {
-
-
   const handleClick2 = () => {
     console.log("Clicked! 2");
   };
@@ -20,13 +18,12 @@ function App() {
     console.log(`Delete item ${id}`);
   };
 
-
   return (
     <>
+      <Posts />
 
-    <Todos />
-    <Users_With_Async />
-
+      <Todos />
+      <Users_With_Async />
 
       <Users />
       <LikeButton />
