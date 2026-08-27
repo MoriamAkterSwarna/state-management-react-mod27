@@ -1,7 +1,9 @@
 import "./App.css";
 import Counter from "./Counter";
 import LikeButton from "./LikeButton";
+import Todos from "./Todos";
 import Users from "./Users";
+import Users_With_Async from "./Users_With_Async";
 
 
 function App() {
@@ -21,6 +23,11 @@ function App() {
 
   return (
     <>
+
+    <Todos />
+    <Users_With_Async />
+
+
       <Users />
       <LikeButton />
       <Counter />
