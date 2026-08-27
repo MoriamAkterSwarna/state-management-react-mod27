@@ -1,8 +1,12 @@
 import "./App.css";
 import Counter from "./Counter";
 import LikeButton from "./LikeButton";
+import Users from "./Users";
+
 
 function App() {
+
+
   const handleClick2 = () => {
     console.log("Clicked! 2");
   };
@@ -14,9 +18,10 @@ function App() {
     console.log(`Delete item ${id}`);
   };
 
+
   return (
     <>
-
+      <Users />
       <LikeButton />
       <Counter />
 
